@@ -2,9 +2,6 @@
 title: POO - Desafio
 ---
 classDiagram
-    iPhone "1" --* "1" ReprodutorMusical
-    iPhone "1" --* "1" AparelhoTelefonico
-    iPhone "1" --* "1" NavegadorInternet
     class iPhone {
         - ReprodutorMusical reprodutorMusical
         - AparelhoTelefonico aparelhoTelefonico
